@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
+<script src="index.js"></script>
+</head>
+<body>
+<h1 class="text-info">Calculator</h1>
+<div id="alok">
+  <form action="post" name="frm">
+    <input type="text" name='txt' placeholder="0"><br>
+    <input class="btn1" type="button" name="btn" value="(" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value=")" onclick="disp(this.value)">
+    <input class="btn3" type="reset" name="btn" value="CE">
+    <input class="btn2" type="button" name="btn" value="clear" onclick="tr()"><br>
+    <input class="btn1" type="button" name="btn" value="9" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="8" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="7" onclick="disp(this.value)">
+    <input class="btn2" type="button" name="btn" value="/" onclick="disp(this.value)"><br>
+    <input class="btn1" type="button" name="btn" value="6" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="5" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="4" onclick="disp(this.value)">
+    <input class="btn2" type="button" name="btn" value="*" onclick="disp(this.value)"><br>
+    <input class="btn1" type="button" name="btn" value="3" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="2" onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="1" onclick="disp(this.value)">
+    <input class="btn2" type="button" name="btn" value="-" onclick="disp(this.value)"><br>
+    <input class="btn1" type="button" name="btn" value="." onclick="disp(this.value)">
+    <input class="btn1" type="button" name="btn" value="0" onclick="disp(this.value)">
+    <input class="btn2" type="button" name="btn" value="=" onclick="calc()">
+    <input class="btn2" type="button" name="btn" value="+" onclick="disp(this.value)">
+  </form>
+</div>
+<h2 class="text-primary text-lg-right" style="margin-top:300px;">-Created by Alok</h2>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+</html>
